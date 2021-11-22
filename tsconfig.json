@@ -28,12 +28,6 @@
       "ui": [
         "dist/ui/ui",
         "dist/ui"
-      ],
-      "ui2": [
-        "dist/ui2/ui2",
-        "dist/ui2",
-        "dist/ui2/ui2",
-        "dist/ui2"
       ]
     }
   },

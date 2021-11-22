@@ -1,8 +1,11 @@
 {
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/ui",
+  "assets": [
+    "./sass/**/*.scss"
+  ],
   "lib": {
     "entryFile": "src/public-api.ts",
-    "styleIncludePaths": ["../shared-styles"]
+    "styleIncludePaths": ["./sass"]
   }
 }

@@ -1,6 +1,10 @@
+
+@import '~bootstrap/scss/bootstrap-reboot';
+@import '~bootstrap/scss/bootstrap-grid';
+
+
 @mixin square() {
-  height: 300px;
-  width: 300px;
   border-style: solid;
   border-width: 5px;
+  border-color: red;
 }
