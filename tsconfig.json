@@ -19,7 +19,23 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "demo": [
+        "dist/demo/demo",
+        "dist/demo"
+      ],
+      "ui": [
+        "dist/ui/ui",
+        "dist/ui"
+      ],
+      "ui2": [
+        "dist/ui2/ui2",
+        "dist/ui2",
+        "dist/ui2/ui2",
+        "dist/ui2"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
