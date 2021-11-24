@@ -1,10 +1,4 @@
+@import  './variables';
 
 @import '~bootstrap/scss/bootstrap-reboot';
 @import '~bootstrap/scss/bootstrap-grid';
-
-
-@mixin square() {
-  border-style: solid;
-  border-width: 5px;
-  border-color: red;
-}

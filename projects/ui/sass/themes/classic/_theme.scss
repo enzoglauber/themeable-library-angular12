@@ -1,0 +1,32 @@
+@use '~@angular/material' as mat;
+@use 'palette';
+
+$classic-primary: mat.define-palette(palette.$primary, 700, 300, 900);
+$classic-accent: mat.define-palette(palette.$accent,  700, 300, 900);
+$classic-warn: mat.define-palette(mat.$yellow-palette, 600);
+
+$classic-theme: mat.define-light-theme(
+  $classic-primary,
+  $classic-accent,
+  $classic-warn
+);
+
+@mixin custom-components-theme($theme) {
+  // @include anms-styles-reset-theme($theme);
+  // @include anms-app-component-theme($theme);
+  // @include anms-about-component-theme($theme);
+  // @include anms-big-input-component-theme($theme);
+  // @include anms-notifications-component-theme($theme);
+  // @include anms-todos-container-component-theme($theme);
+  // @include anms-stock-market-container-component-theme($theme);
+  // @include anms-parent-component-theme($theme);
+  // @include anms-child-component-theme($theme);
+  // @include anms-examples-component-theme($theme);
+}
+
+.classic-theme {
+  background-color: #F0F1F5;
+  @include mat.all-component-themes($classic-theme);
+  @include custom-components-theme($classic-theme);
+}
+
